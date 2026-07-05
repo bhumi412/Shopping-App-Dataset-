@@ -186,7 +186,7 @@ Built a complete pipeline that:
 * Metadata Validation
 * Identity and Access Management (IAM)
 ---
-## Task 5 – Apache Spark Data Processing using PySpark
+# Task 5 – Apache Spark Data Processing using PySpark
 
 ### Overview
 Performed data cleaning, transformation, filtering, and aggregation on a retail sales dataset using Apache Spark (PySpark) DataFrames.
@@ -213,7 +213,7 @@ Performed data cleaning, transformation, filtering, and aggregation on a retail 
 - Project Documentation
 
 ---
-## Task 6 – Spark Architecture and Data Processing
+# Task 6 – Spark Architecture and Data Processing
 
 ### Overview
 Implemented Apache Spark (PySpark) DataFrame operations on an employee dataset to understand Spark architecture, data transformations, schema handling, filtering, and optimized storage formats.
@@ -241,6 +241,38 @@ Implemented Apache Spark (PySpark) DataFrame operations on an employee dataset t
 - Employee Dataset
 
 ---
+# Task 7 - Delta Lake Merge Implementation
+
+## Overview
+
+This project demonstrates incremental data processing using **Delta Lake** with **PySpark**. The Superstore dataset is loaded into a Delta table, cleaned, and merged with an incremental dataset to update existing records and insert new records efficiently.
+
+## Key Activities
+
+- Loaded the Superstore dataset
+- Checked missing values and duplicates
+- Created a Delta table
+- Generated an incremental dataset
+- Performed the Delta Lake **MERGE** operation
+- Validated updated and inserted records
+- Displayed the final merged dataset
+
+## Technologies Used
+
+- Python
+- PySpark
+- Delta Lake
+- Google Colab
+- Pandas
+
+## Deliverables
+
+- Google Colab Notebook
+- Incremental CSV Dataset
+- Implementation Screenshots
+- README Documentation
+
+---
 ## Repository Structure
 
 
@@ -254,6 +286,7 @@ Data-Engineering-Internship/
 ├── Week-4-Azure-Data-Factory/
 ├── Task-5-PySpark-DataFrame-Operation/
 ├── Task-6-Spark-Assignment/
+├── Task-7-Delta-Lake-Merge-Implementation/
 └── README.md
 ```
 
